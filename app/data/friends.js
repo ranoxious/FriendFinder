@@ -1,15 +1,37 @@
 var users = [
     {
         name: "Totoro",
-        photo: "https://www.deviantart.com/clockwork2/art/My-Neighbor-Totoro-573701038pg?",
-        scores: [1, 2, 3, 4, 5, 1, 2, 3, 4, 5]
+        photo: "https://randomuser.me/api/portraits/lego/5.jpg",
+        scores: ["1", "2", "3", "4", "5", "1", "2", "3", "4", "5"]
     },
     {
-        name: "Pucca",
-        photo: "http://images2.fanpop.com/image/photos/10200000/Pucca-pucca-10222952-495-369.jpg",
-        scores: [1, 5, 2, 3, 5, 4, 5, 4, 2, 1]
+        name: "Sam",
+        photo: "https://randomuser.me/api/portraits/lego/6.jpg",
+        scores: ["2", "5", "2", "3", "5", "4", "5", "4", "2", "1"]
+    },
+
+    {
+        name: "Danny",
+        photo: "https://randomuser.me/api/portraits/lego/2.jpg",
+        scores: ["3", "1", "3", "5", "4", "2", "1", "4", "1", "3"]
+    },
+
+    {
+        name: "Pinky",
+        photo: "https://randomuser.me/api/portraits/lego/1.jpg",
+        scores: ["5", "3", "1", "2", "2", "5", "3", "1", "2", "1"]
+
+    },
+
+    {
+        name: "Docky",
+        photo: "https://randomuser.me/api/portraits/lego/3.jpg",
+        scores: ["1", "5", "2", "3", "5", "4", "5", "4", "2", "1"]
     }
+
 ];
+
+
 
 module.exports = users;
 
